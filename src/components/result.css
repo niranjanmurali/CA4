@@ -1,0 +1,75 @@
+.result-container{
+    width: 800px;
+    height: 400px;
+    margin: auto;
+    margin-top: 100px;
+    border: 1px solid black;
+    background-color: #900c0c;
+    border-radius: 25px;
+}
+.progress-container{
+    height: 200px;
+    /* margin-left: 100px; */
+    display: flex;
+    justify-content: space-around;
+}
+.result{
+    display: flex;
+    justify-content: center;
+    color: white;
+    
+}
+.score{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: -100px;
+}
+.play-again-btn-cont{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.play-again-btn{
+    width: 100px;
+    height: 40px;
+    border-radius: 15px;
+    background-color: rgb(228, 217, 62);
+    font-size: 18px;
+    color: white;
+}
+
+/* @media only screen and (max-width:400px){
+    .result-container{
+        width: 250px;   
+    }
+    .progress-container{
+        width: 200px;
+    }
+    .result{
+        font-size: 20px;
+    }
+    .score{
+        font-size: 15px;
+    }
+} */
+@media screen and (max-width: 480px) {
+    .result-container {
+        width: 50%; /* Adjusted width for even smaller screens */
+        margin-top: 20px; /* Reduced margin-top for even smaller screens */
+
+    }
+
+    .score {
+        margin-top: -30px; /* Reduced margin-top for even smaller screens */
+    }
+
+    .play-again-btn-cont {
+        margin-top: 30px; /* Adjusted margin-top for even smaller screens */
+    }
+
+    .play-again-btn {
+        width: 90%; /* Adjusted width for even smaller screens */
+    }
+}
